@@ -1,9 +1,7 @@
 /* WATS 3020 Browser Game project */
 /* Build a tic tac toe game for two players. */
 
-// TODO: Create a class called `Player`. The `constructor()` should look for a
-// parameter called `token` and should set `this.token` as a property of
-// the class.
+
 
 
 class Player {
@@ -14,7 +12,7 @@ class Player {
 // Tic Tac Toe Game Class
 class TicTacToe {
     constructor() {
-        // TODO: Set up `this.player1` and `this.player2` properties.
+
         // These properties should be new Player class instances.
         // You may set the "token" to anything that corresponds to a Glyphicon
         // icon name ('heart', 'star', 'remove-sign', 'unchecked', 'bell',
@@ -23,16 +21,14 @@ class TicTacToe {
         this.player2 = new Player('unchecked');
 
 
-        // TODO: Initialize several  properties that will be used to track game
-        // progress.
 
-        // TODO: Set `this.currentPlayer` equal to `null`
+
         this.currentPlayer = null;
-        // TODO: Set `this.gameStatus` equal to `null`
+
         this.gameStatus = null;
-        // TODO: Set `this.winner` equal to `null`
+
         this.winner = null;
-        // TODO: Set `this.moveCount` equal to `0`
+
         this.moveCount = 0;
 
 
